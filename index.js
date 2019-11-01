@@ -30,10 +30,18 @@ let i = 0;
 function iLoveTheBeatles(num) {
   let emptyArray = [];
   do {
+<<<<<<< HEAD
     emptyArray.unshift("I love the Beatles!");
     num++;
+=======
+    emptyArray.push("I love the Beatles");
+>>>>>>> 4f6bd531110391b45da7fe8533c4a172f2fd1318
   } while (num < 15);
   return emptyArray;
 };
 
+<<<<<<< HEAD
 // console.log(iLoveTheBeatles(0));
+=======
+console.log(iLoveTheBeatles(12));
+>>>>>>> 4f6bd531110391b45da7fe8533c4a172f2fd1318
